@@ -1,4 +1,4 @@
-Code Institute Milestone 1 - Michael Newham Resume
+Code Institute - Milestone 1 - Michael Newham Resume
 
 Highlights: -
 <index.html>

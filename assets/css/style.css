@@ -48,6 +48,10 @@ h4 {
     color: #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* ------------------Heading */
 
 header {
@@ -149,6 +153,3 @@ footer {
     min-height: 120px;
     margin: 0;
 }
-
-
-
