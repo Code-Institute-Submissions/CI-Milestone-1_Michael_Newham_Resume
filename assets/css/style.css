@@ -12,6 +12,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 /* Todo: Remove 'menu colour' below if Logo becomes 'Home' button 
 /* .ui-menu-color-home {
     background-color: #E67E22;
