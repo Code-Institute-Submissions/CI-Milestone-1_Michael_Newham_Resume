@@ -1,6 +1,8 @@
 /* ------------------Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200..900&family=Oxygen:wght@200..900&family=Raleway:wght@200..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css?family=Newsreader:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700'); */
 
 /* ------------------Colours */
 
@@ -23,11 +25,6 @@
 .bg-color-contact {
     background-color: #fff;
 }
-
-/* Todo: Remove 'menu colour' below if Logo becomes 'Home' button 
-/* .ui-menu-color-home {
-    background-color: #E67E22;
-} */
 
 .ui-menu-color-resume {
     background-color: #9B59B6;
@@ -59,7 +56,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Oxygen", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -80,10 +77,11 @@ h4 {
 
 .history-heading,
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Newsreader", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    margin-left: 15px;
 }
 
 .col {
@@ -112,19 +110,19 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 47px;
+    margin-top: 65px;
     color: #fff;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 100;
     font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-top: 25px;
+    margin-bottom: 70px;
     color: #fff;
 }
 
@@ -329,7 +327,7 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Newsreader", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -355,7 +353,7 @@ footer {
 /* ------------------Contact Form */
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Newsreader", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
