@@ -53,6 +53,10 @@ h4 {
     text-transform: uppercase;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
 .general-sub {
     font-family: "Oxygen", sans-serif;
     font-weight: 300;
@@ -73,14 +77,14 @@ h4 {
     float: none;
 }
 
-.section-heading-marginleft {
-    margin-left: 14px;
+.section-heading-center {
+    text-align: center;
 }
 
 .history-heading,
 .section-heading {
-    font-family: "Newsreader", sans-serif;
-    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -173,9 +177,9 @@ header {
     width: 100%;
     display: block;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 2px;
     font-family: "Oxygen", sans-serif;
 
@@ -255,27 +259,33 @@ footer {
 /* ------------------Personal Info */
 
 .personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
+    /* margin-bottom: 20px; */
+    /* margin-right: 50px; */
+    display: flex;
+    /* position: relative; */
+    /* clear: both; */
 }
 
-.personal-info-item .key,
-.personal-info-item .value {
+/* .personal-info-item .key,
+.personal-info-item .value,
+.personal-info-item .icon
+ {
     padding-right: 8px;
     display: inline-block;
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p {
-    margin: 0;
-}
+.personal-info-item .value p,
+.personal-info-item .icon p
+ {
+    margin: 5px;
+} */
 
 .personal-info-item .key {
-    width: 30%;
-    margin-right: 21;
-    padding-top: 2px;
-    vertical-align: top;    
+    width: 25%;
+    /* margin-right: 5px; */
+    /* padding-top: 5px; */
+    /* vertical-align: bottom;     */
 }
 
 .personal-info-item .key p {
@@ -283,8 +293,16 @@ footer {
 }
 
 .personal-info-item .value {
-    position: relative;
+    /* position: relative; */
     width: 60%;
+    /* margin-right: 5px; */
+
+}
+
+.personal-info-item .icon {
+    /* position: relative; */
+    width: 15%;
+    text-align: center;
 }
 
 /* ------------------Skills */
