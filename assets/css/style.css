@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200..900&family=Oxygen:wght@200..900&family=Raleway:wght@200..900&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css?family=Newsreader:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700'); */
-
 /* ------------------Colours */
 
 .bg-color-name-title {
@@ -75,17 +73,23 @@ h4 {
     float: none;
 }
 
+.section-heading-marginleft {
+    margin-left: 14px;
+}
+
 .history-heading,
 .section-heading {
     font-family: "Newsreader", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    margin-left: 15px;
 }
-
 .col {
     --bs-gutter-x: 0rem;
+}
+
+.col-12 {
+    text-align: center;
 }
 
 /* ------------------Heading */
@@ -150,6 +154,7 @@ header {
 }
 
 .menuitem a {
+    padding-top: 27px;
     height: 120px;
     width: 100%;
     text-decoration: none;
@@ -157,21 +162,23 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 27px;
     height: 26px;
     display: block;
     color: #fafafa;
 } 
 
 .menuitem span {
-    padding-top: 35px;
+    padding-top: 10px;
     width: 100%;
     display: block;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 /* ------------------Hover.css */
