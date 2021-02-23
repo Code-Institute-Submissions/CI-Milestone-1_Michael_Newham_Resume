@@ -11,7 +11,7 @@
 .bg-color-three-reasons {
     background-color: #8f8f8f;
     color: #fff;
-    padding: 0 30px 30px;
+    padding: 0 30px 0px;
 }
 
 .bg-color-personal-info {
@@ -65,12 +65,14 @@ h4 {
 
 .general-sub {
     font-family: "Oxygen", sans-serif;
-    font-weight: 300;
     color: #fafafa;
+    font-weight: 100;
+    font-size: 28px;
 }
 
 .inline-block {
     display: inline-block;
+    margin-right: 30px;
 }
 
 .row {
@@ -83,7 +85,7 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 30px 0px;
     float: none;
     color: #fff;
 }
@@ -98,7 +100,7 @@ h4 {
     font-weight: 100;
     font-size: 28px;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .col {
@@ -242,8 +244,12 @@ footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
+    margin: 2px;
 }
+
+/* .col-sm-4 {
+    margin-right: 15px;
+} */
 
 .cv-pdf i {
     font-size: 18px;
@@ -256,15 +262,11 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
-    color: #e84610
-}
-
 .social-links {
     padding-bottom: 15px;
 }
 
-.social-links li a i {
+/* .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -278,14 +280,24 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+} */
+
+/* .social-links li a i:hover {
+    background: #e84610;
+} */
+
+.social-links a:hover {
+    color: #3498db;
 }
 
-.social-links li a i:hover {
-    background: #e84610;
+.social-links a {
+    color: #fd7e14;
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 30px 0px 0px 30px;
+    text-align: left;
+    margin-left: 30px;
 }
 
 
