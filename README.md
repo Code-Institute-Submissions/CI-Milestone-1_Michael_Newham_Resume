@@ -13,5 +13,4 @@ Validation Service -
 CHecked CSS (all pages) with https://jigsaw.w3.org/css-validator/ (No personal code errors / warnings)
 Checked HTML with https://validator.w3.org/ (No personal code errors / warnings)
 Cheched HTML / CSS (all pages) with Google Chrome Lighthouse (Achived 79% Score)
-- Screenshots of test results can be found at 
-https://michaelnewham.github.io/CI-Milestone-1_Michael_Newham_Resume/
+- Screenshots of test results can be found at https://bit.ly/3pMYJw1 
