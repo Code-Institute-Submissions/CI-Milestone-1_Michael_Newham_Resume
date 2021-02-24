@@ -445,6 +445,10 @@ footer {
 
 /* ------------------Contact Form */
 
+.col-contact-form {
+    background-color: #8f8f8f;
+}
+
 .contact-heading {
     font-family: "Newsreader", sans-serif;
     font-weight: 300;
