@@ -8,3 +8,9 @@ Highlights: -
 - Add > latest FontAwesome library "4.7.0" from here > https://bit.ly/3ayxy2m to the <head> section of index.html.
 <assets/css/style.css>
 - Add Google Font to top of file > fonts.google.com
+
+Validation Service - 
+CHecked CSS (all pages) with https://jigsaw.w3.org/css-validator/ (No personal code errors / warnings)
+Checked HTML with https://validator.w3.org/ (No personal code errors / warnings)
+Cheched HTML / CSS (all pages) with Google Chrome Lighthouse (Achived 79% Score)
+- Screenshots of test results can be found at 
