@@ -120,7 +120,7 @@ The resume site met all the following Code Institute 'Project Outcomes' as follo
         YES > Needs to be added to the README.md and appearing on GitHub.
     
     c) Attribute code imported from external sources. Both 'in-line' comments and README.
-        CHECK > For links to BootStrap, FontAwesome, etc. Also code for contact.html.
+        YES > For links to BootStrap, FontAwesome, etc, are included.
     
     d) Seperate / identify code from external website.
         YES - in conjunction with attribution above.
@@ -168,81 +168,47 @@ The resume site met all the following Code Institute 'Project Outcomes' as follo
     e) Ensure there are no broken internal links.
         YES - done.
 
-
-
 ### Features Left to Implement
 - I would like to increase the contrast of the pages so that they are more 'readable' by those with impaired vision.
-
-
-
+- Inlude a PHP server (or other appropiate technology) to allow the emil submit button to function properly.
 
 ## Technologies Used
+- Installed Emmet Snippet & Auto-completion. Used to auto include 'Emmet' html boilerplate code on any line.
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- Used latest Bootstrap CDN library "5.0.0-beta2" from here > https://bit.ly/3amtYbB for all pages.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- Used latest FontAwesome library "5.12.2" from here > https://bit.ly/3uuDmmU to allow icon insertion on all pages.
 
+- Used 'Google Font' at top of style.css file to allow inclusion of various fonts from here > fonts.google.com.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Code on all pages was tested using the following validation tools >
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- **Checked CSS** (all pages) with https://jigsaw.w3.org/css-validator/  No personal code errors / warnings.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- **Checked HTML** (all pages) with https://validator.w3.org/. No personal code errors / warnings.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- Checked HTML / CSS (all pages) with **Google Chrome Lighthouse** (https://developers.google.com/web/tools/lighthouse/).  Achieved 79% Score.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Checked HTML from index.html page with **WebAim Accessibity Tool** (https://wave.webaim.org/).  No errors were returned.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- Screenshots of all test results can be found in the folder 'validation_screengraps' here > 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I used **GitHub Pages** (https://pages.github.com/) to quickly deploy my project. The lated deployment link for my 'Resume' site is at the top of this list > (https://bit.ly/2Nu88vD).
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All content was derived from my latest Curriculum Vitae.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The only used in this site (profile photo on index.html) was obtained from my own Photo folder
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-
-
-Code Institute - Milestone 1 - Michael Newham Resume
-
-Highlights: -
-<index.html>
-- Added > Emmet Snippet & Auto-completion: Allows >'! and tab' to auto include 'Emmet' html boilerplate code on any line.
-- Edit > index.html to include proper <head> boilerplate code.
-- Updated > latest Bootstrap CDN library "5.0.0-beta2" from here > https://bit.ly/3amtYbB to the <head> section of index.html.
-- Updated > latest FontAwesome library "5.12.2" from here > https://bit.ly/3uuDmmU to the <head> section of index.html.
-<assets/css/style.css>
-- Updated > Google Font to top of style.css file > fonts.google.com.
-
-Code Validation Checks: - 
-- Checked CSS (all pages) with https://jigsaw.w3.org/css-validator/  No personal code errors / warnings.
-- Checked HTML (all pages) with https://validator.w3.org/. No personal code errors / warnings.
-- Cheched HTML / CSS (all pages) with Google Chrome Lighthouse (https://developers.google.com/web/tools/lighthouse/).  Achieved 79% Score.
-- Checked HTML from index.html page with WebAim Accessibity Tool (https://wave.webaim.org/).  No errors were returned.
-- Screenshots of all test results can be found at https://bit.ly/3pMYJw1 
+- I received inspiration for this project from my family.
