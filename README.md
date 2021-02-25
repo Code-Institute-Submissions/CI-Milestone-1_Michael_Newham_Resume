@@ -37,7 +37,7 @@ Link to an example iPad wireframe for the **[projects page is here](https://gith
 Average laptop size used was 1440*900.
 Link to an example Laptop wireframe for the **[resume page is here.](https://github.com/MichaelNewham/CI-Milestone-1_Michael_Newham_Resume/blob/master/wireframes/1-Wireframe_LAPTOP_Resume-html.png)**
 
-All wireframes for the above devices can also be directly accessed at the following GitHub Pages link >
+**All wireframes** for the above devices can also be directly accessed at the following GitHub Pages link >
 (https://bit.ly/2MnL017)
 
 ## Viewports
