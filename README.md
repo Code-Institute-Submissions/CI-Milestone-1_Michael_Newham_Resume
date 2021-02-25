@@ -60,83 +60,113 @@ and a sepeate downloadable link for my CV.
 The resume site met all the following Code Institute 'Project Outcomes' as follows -
 
 1. Design 'Front-End Web Application' with good 'User Experience Design, Accessibility & Responsivity'
+    
     a) Main navigation menu.
         YES - Central NavBar for access to pages.
+    
     b) Structured layout.
         YES - clearly defined area.
+    
     c) Meet accessibility guidelines.
         YES - Must check this.
+    
     d) Include alt-text equivalents.
         YES - Esp. for images.
+    
     e) Follow principles of user-experience design.
         YES - ALl is clear.
+    
     f) Use header structure & categorise in terms of priority. 
         YES - Prioroty from left to right.
+    
     g) Ensure foreground info is not distracted. 
         YES - Basic color scheme with few words.
+    
     h) Graphics are consistent in style and color. 
         YES - Change basic colours to another scheme.
 
 2. Develop and implement a static front-end web application using HTML and CSS
+    
     a) 3 page website (at least).
         YES - Actually a 4 page website.
+    
     b) Write CSS code that is validated by W3C.
         YES - Must check this at end of project.
+    
     c) Write HTML code that is validated by W3C.
         YES - Must check this at end of project.
+    
     d) Include decent images with high resolution.
         YES - Must get a decent image.
+    
     e) External links open in new tab.
         YES - For the CV PDF.
+    
     f) Semantic markup to structure code.
         YES: I presume so within the code.
+    
     g) Clearly understandable site specific content.
         YES - This is a Resume site.
+    
     h) Clear navigation to allow users find resources on site intuitively. 
         YES - Clear buttons.
 
 3. Maximise future maintainability through documentation, code structure & organisation.
+    
     a) Write a README.md file > for Web application > explains purpose, value that it provides to user and deploy. 
         YES - finalised
+    
     b) Insert screenshots of finsihed project which align to relevant user stories.
         YES > Needs to be added to the README.md and appearing on GitHub.
+    
     c) Attribute code imported from external sources. Both 'in-line' comments and README.
         CHECK > For links to BootStrap, FontAwesome, etc. Also code for contact.html.
+    
     d) Seperate / identify code from external website.
         YES - in conjunction with attribution above.
+    
     e) Organise CSS & HTML into well defined commented sections.
         YES - CSS goes into style.css and HTML is seperate.
+    
     f) Put CSS code into external sections. 
         YES > See above.
+    
     g) Consistent indentation.
         YES > sorted with 'format' tool.
+    
     h) Name files descriptively. 
         YES > Both actual name and 'page tab' name.
+    
     i) Group files in directory by file type. 
         YES > seperate folders.
 
 4. Use version control software to maintain, upload and share code with other developers.
+    
     a) Use Github throughout development & implementation process. 
         YES - Lots of commits.
+    
     b) Document development process through descriptive commit messages. 
         YES - Description tag with every commit.
+    
     c) Use consistent / effective markdown to produce README file. 
         YES - Markdown used in README.md such as heading styles and bullet points.
 
 5. Test and deploy a front-end web application to a Cloud platform
+    
     a) Use manual testing procedures to assess functionality.
         YES - Uploaded to GitHub and pages were made accessible using 'GitHub Pages' deployment.
+    
     b) Document testing in README.
         YES.
+    
     c) Deploy final version of code to cloud-based hosting.
         YES - on GitHub pages.
+    
     d) Remove commented out code before pushing final files.
         YES - All files checked.
+    
     e) Ensure there are no broken internal links.
         YES - done.
-
-
-
 
 
 
