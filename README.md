@@ -193,13 +193,11 @@ Code on all pages was tested using the following validation tools >
 
 - Checked HTML from index.html page with **WebAim Accessibity Tool** (https://wave.webaim.org/).  No errors were returned.
 
-- Screenshots of all test results can be found in the folder 'validation_screengraps' here > 
-
+- Screenshots of all test results can be found in the folder 'validation_screengraps' here > https://bit.ly/3km8LDn
 
 ## Deployment
 
 I used **GitHub Pages** (https://pages.github.com/) to quickly deploy my project. The lated deployment link for my 'Resume' site is at the top of this list > (https://bit.ly/2Nu88vD).
-
 
 ## Credits
 
